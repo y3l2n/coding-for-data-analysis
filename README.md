@@ -8,7 +8,7 @@ this repository serves as a resource for those who want to learn programming to 
 
 To run the presentation locally, make sure you have node.js installed/
 ```bash
-cd presentation
+cd docs
 npm install
 npm start
 ```
