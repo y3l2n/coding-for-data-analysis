@@ -29,20 +29,25 @@
 				<br>
 				Yulan Lin
 				<br>
-				@y3l2n
+        <a href="twitter.com/y3l2n">@y3<span style="font-family: cursive">l</span>2n</a>
 				</section>
-				<section>
-				<h3>man yulan<h3>
-				<pre><code class="hljs" data-trim contenteditable>	
-				hello
-				</code></pre>
+
+        <section>
+				<h3>who am i?<h3>
 				</section>
-				
+
+                <section>
+                <h3>follow along</h3>
+                <div>
+                    <a href="https://y3l2n.github.io/coding-for-data-analysis/">https://y3<span style="font-family: cursive">l</span>2n.github.io/coding-for-data-analysis/</a> 
+                </div>
+                </section>
 				<section>
 				<h3>Scope of this talk</h3>
 				<ul>
 					<li>Overview of the open-source programming landscape for data science</li>
-					<li>Introduction to online resources for learning to code</li>
+                    <li>Miscellaneous useful topics you should know about</li>
+                    <li>Introduction to online resources for learning to code</li>
 					<li>A basic toolkit for how not to get stuck</li>
 				</ul>
 				</section>
@@ -53,10 +58,6 @@
 					<li>Data-science-and-analysis bias</li>
 					<li>Not comprehensive</li>
 				</ul>
-				</section>
-				
-				<section>
-				<h3>beyond internet explorer and excel..</h3>
 				</section>
 				
 				<section>
@@ -93,37 +94,42 @@
 					<section id="fragments">
 					<h3>Common programming languages for data science</h3>
 					<ul>
-						<span class="fragment"><li>Bash: </span><span class="fragment">Interacting with the computer, sometimes also parsing/cleaning data. </li></span>
-						<span class="fragment"><li>Python: </span><span class="fragment">Good at data wrangling/modeling. </li></span>
-						<span class="fragment"><li>R: </span><span class="fragment">Statistical programming language - great for tabular data and modeling. </li></span>
-						<span class="fragment"><li>Julia: </span><span class="fragment">For math and fast processing - relatively new. </li></span>
-						<span class="fragment"><li>SQL: </span><span class="fragment">Working with databases. </li></span>
-						<span class="fragment"><li>HTML/Javascript: </span><span class="fragment">Web development - often for interactive visualizations. </li></span>
+            <span class="fragment"><li>Bash: </span>
+                <span class="fragment">Interacting with the computer, sometimes also parsing/cleaning data. </li></span>
+            <span class="fragment"><li>Python: </span>
+                <span class="fragment">Good at data wrangling/modeling. </li></span>
+            <span class="fragment"><li>R: </span>
+                <span class="fragment">Statistical programming language - great for tabular data and modeling. </li></span>
+            <span class="fragment"><li>Julia: </span>
+                <span class="fragment">For math and fast processing - relatively new. </li></span>
+            <span class="fragment"><li>SQL: </span>
+                <span class="fragment">Working with databases. </li></span>
+            <span class="fragment"><li>HTML/Javascript: </span>
+                <span class="fragment">Web development - often for interactive visualizations. </li></span>
 					<ul>
 					</section>
 				</section>
 				
 				<section>
 				<h3>Bash</h3>
-				Interacting with the "terminal," or "shell."
+        Interacting with the "terminal," or "shell."
 				<br>
-				Where to learn it: Codeacademy, Codeschool.
+        Where to learn it: 
+        <a href = "https://www.codecademy.com/learn/learn-the-command-line">Codeacademy</a>
 				<pre><code class="hljs" style="word-wrap" data-trim contenteditable>
-				> ls = list files
-				> mkdir = make new folder
-				> cd = change directory
-				</code></pre>
+				> echo 'hello world'
+        </code></pre>
 				</section>
 				
 				<section>
 				<h3>Python</h3>
 				Data cleaning/analysis, building applications.
 				<br>
-				Where to learn it? Codeacademy, DataCamp
+        Where to learn it? 
+        <a href="https://www.codecademy.com/learn/python">Codeacademy</a>, 
+        <a href="https://www.datacamp.com/courses/intro-to-python-for-data-science">DataCamp</a>.
 				<pre><code class="hljs" style="word-wrap" data-trim contenteditable>
-				> import pandas
-				> import matplotlib
-				> pd.read_csv("data.csv")
+				> print(hello world)
 				</code></pre>
 				</section>
 				
@@ -131,11 +137,10 @@
 				<h3>R</h3>
 				Data analysis/modeling.
 				<br>
-				Where to learn it? CodeSchool
+        Where to learn it? 
+        <a href="https://www.codeschool.com/courses/try-r">CodeSchool</a>
 				<pre><code class="hljs" style="word-wrap" data-trim contenteditable>
-				> library(glm)
-				> mkdir = make new folder
-				> cd = change directory
+				> print("hello world")
 				</code></pre>
 				</section>
 				
@@ -143,9 +148,10 @@
 				<h3>Julia</h3>
 				Computation and parallel computing.
 				<br>
-				Where to learn it? Julia website
+        Where to learn it? 
+        <a href="https://julialang.org/learning/">Julia documentation</a>.
 				<pre><code class="hljs" style="word-wrap" data-trim contenteditable>
-				> cd = change directory
+				> println("hello world")
 				</code></pre>
 				</section>
 				
@@ -153,48 +159,82 @@
 				<h3>SQL</h3>
 				Working with and querying databases.
 				<br>
-				Where to learn it? w3schools
+        Where to learn it? 
+        <a href="https://www.w3schools.com/sql/DEfaULT.asP">w3schools</a>
 				<pre><code class="hljs" style="word-wrap" data-trim contenteditable>
-				> cd = change directory
+				> SELECT 'HELLO WORLD';
 				</code></pre>
 				</section>
 				
 				<section>
-				<h3>Julia</h3>
-				Computation and parallel computing.
+				<h3>HTML/Javscript</h3>
+				Web development and data visualization.
 				<br>
-				Where to learn it? Julia website
+        Where to learn it? <a href="https://www.codecademy.com/learn/learn-html-css">Codeacademy</a>
 				<pre><code class="hljs" style="word-wrap" data-trim contenteditable>
-				> cd = change directory
+                &lt;script&gt;
+                   console.log("hello world") 
+                &lt;/script&gt;
 				</code></pre>
+        </section>
+
+        <section>
+        <h3>Other miscellaneous topics</h3>
+        </section>
+
+        <section>
+        <h3><a href="https://github.com">Github</a></h3>
+        <ul>
+            <li>Version control</li>
+            <li>Code-sharing</li>
+        </ul>
+        </section>
+
+        <section>
+        <h3>Regular Expressions</h3>
+        Very fancy find-(and-maybe-replace). 
+        Play with the syntax at <a href="http://regexr.com/">this website</a>.
+        </section>
+
+				<section>
+					<h3>Resources to get started</h3>
+					<ul>
+            <li><a href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x">CS50x</a></li>
+            <li><a href="https://codeacademy.org">CodeAcademy</a></li>
+            <li><a href="www.codeschool.com">CodeSchool</a></li>
+            <li><a href="https://www.w3schools.com">w3schools</a></li>
+					</ul>
 				</section>
 
 				<section>
 					<h3>How do I get started?</h3>
 					<ul>
-						<li>CS50x</li>
-						<li></li>
+              <li>Pick a project</li>
+              <li>Apply it to something at work</li>
+              <li>Attend a hackathon 
+                (<a href="http://houstonhackathon.com/">Houston</a>,
+                <a href="https://2017.spaceappschallenge.org/locations/houston/">Space Apps</a>)</li>
 					</ul>
 				</section>
-
-				<section>
-				<h3>How to get unstuck?</h3>
+        
+        <section>
+        <h3>How to get unstuck?</h3>
+        <ul>
+            <li><a href="https://blog.codinghorror.com/rubber-duck-problem-solving/">Rubber ducky method</a></li>
+            <li><a href="stackoverflow.com">StackOverflow</a></li>
+            <li><a href="datascience.stackexchange.com">Data Science Stack Exchange</a></li>
+            <li>Online communities (twitter, slack)</li>
+        </ul>
 				</section>
 
 				<section>
-				<h3>Communities to help</h3>
-				<ul>
-					<li></li>
+				<h3>Local communities to help</h3>
+        <ul>
+            <li>NASA Slack</li>
+				    <li>Houston Data Visualization</li>
 				</ul>
 				</section>
 				
-				<section>
-				<h3>Things I may not cover</h3>
-				<ul>
-					<li>Github</li>
-					<li>Mathematica/Octave/Matlab</li>
-				</ul>
-				</section>
 				<section>
 				<h3>Questions?</h3>
 				</section>
