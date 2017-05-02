@@ -1,40 +1,40 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>code for data analysis</title>
+    <title>code for data analysis</title>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
-		<link rel="stylesheet" href = "css/custom.css">
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
+    <!-- <link rel="stylesheet" href = "css/custom.css"> -->
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>
-				<h2>Introduction to Programming for Data Science</h2>
-				<br>
-				Yulan Lin
-				<br>
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+        <h2>Introduction to Programming for Data Science</h2>
+        <br>
+        Yulan Lin
+        <br>
         <a href="twitter.com/y3l2n">@y3<span style="font-family: cursive">l</span>2n</a>
-				</section>
+        </section>
 
         <section>
-				<h3>who am i?<h3>
-				</section>
+        <h3>who am i?<h3>
+        </section>
 
                 <section>
                 <h3>follow along</h3>
@@ -42,58 +42,58 @@
                     <a href="https://y3l2n.github.io/coding-for-data-analysis/">https://y3<span style="font-family: cursive">l</span>2n.github.io/coding-for-data-analysis/</a> 
                 </div>
                 </section>
-				<section>
-				<h3>Scope of this talk</h3>
-				<ul>
-					<li>Overview of the open-source programming landscape for data science</li>
+        <section>
+        <h3>Scope of this talk</h3>
+        <ul>
+          <li>Overview of the open-source programming landscape for data science</li>
                     <li>Miscellaneous useful topics you should know about</li>
                     <li>Introduction to online resources for learning to code</li>
-					<li>A basic toolkit for how not to get stuck</li>
-				</ul>
-				</section>
-	
-				<section>
-				<h3>Caveats</h3>
-				<ul>
-					<li>Data-science-and-analysis bias</li>
-					<li>Not comprehensive</li>
-				</ul>
-				</section>
-				
-				<section>
-					<section id="fragments">
-						<h3>some definitions to start with</h3>
-						<ul>
-							<span class="fragment"><li><b>Programming language: </b></span><br><span class="fragment">A formalized language to tell a computer (or other machine) what to do.</span></li>
-							<span class="fragment"><li><b>Terminal: </b></span><br><span class="fragment">A way to "interact" with a computer through text interactions and displayed output.</span></li>
-							<span class="fragment"><li><b>Interpreter: </b></span><br><span class="fragment">The "translator" between you and the computer.</span></li>													
-							<span class="fragment"><li><b>Integrated Development Environment: </b></span><br><span class="fragment">Microsoft Word for programming.</span></li>						
-						</ul>
-					</section>
-				</section>
-				
-				<section>
-					<section id="fragments">
-						<h3>so... what is programming?</h3>
-						<span class="fragment">
-							Writing a set of instructions in a particular formalized language that you provide to the computer.
-						</span>
-					</section>
-				</section>
-				
-				<section>
-					<section id="fragments">
-						<h3>why are there different languages?</h3>
-						<span class="fragment">
-							Each language has a different purpose- different things that it was created to do easily.
-						</span>
-					</section>
-				</section>
-				
-				<section>
-					<section id="fragments">
-					<h3>Common programming languages for data science</h3>
-					<ul>
+          <li>A basic toolkit for how not to get stuck</li>
+        </ul>
+        </section>
+  
+        <section>
+        <h3>Caveats</h3>
+        <ul>
+          <li>Data-science-and-analysis bias</li>
+          <li>Not comprehensive</li>
+        </ul>
+        </section>
+        
+        <section>
+          <section id="fragments">
+            <h3>some definitions to start with</h3>
+            <ul>
+              <span class="fragment"><li><b>Programming language: </b></span><br><span class="fragment">A formalized language to tell a computer (or other machine) what to do.</span></li>
+              <span class="fragment"><li><b>Terminal: </b></span><br><span class="fragment">A way to "interact" with a computer through text interactions and displayed output.</span></li>
+              <span class="fragment"><li><b>Interpreter: </b></span><br><span class="fragment">The "translator" between you and the computer.</span></li>                         
+              <span class="fragment"><li><b>Integrated Development Environment: </b></span><br><span class="fragment">Microsoft Word for programming.</span></li>           
+            </ul>
+          </section>
+        </section>
+        
+        <section>
+          <section id="fragments">
+            <h3>so... what is programming?</h3>
+            <span class="fragment">
+              Writing a set of instructions in a particular formalized language that you provide to the computer.
+            </span>
+          </section>
+        </section>
+        
+        <section>
+          <section id="fragments">
+            <h3>why are there different languages?</h3>
+            <span class="fragment">
+              Each language has a different purpose- different things that it was created to do easily.
+            </span>
+          </section>
+        </section>
+        
+        <section>
+          <section id="fragments">
+          <h3>Common programming languages for data science</h3>
+          <ul>
             <span class="fragment"><li>Bash: </span>
                 <span class="fragment">Interacting with the computer, sometimes also parsing/cleaning data. </li></span>
             <span class="fragment"><li>Python: </span>
@@ -106,76 +106,76 @@
                 <span class="fragment">Working with databases. </li></span>
             <span class="fragment"><li>HTML/Javascript: </span>
                 <span class="fragment">Web development - often for interactive visualizations. </li></span>
-					<ul>
-					</section>
-				</section>
-				
-				<section>
-				<h3>Bash</h3>
+          <ul>
+          </section>
+        </section>
+        
+        <section>
+        <h3>Bash</h3>
         Interacting with the "terminal," or "shell."
-				<br>
+        <br>
         Where to learn it: 
         <a href = "https://www.codecademy.com/learn/learn-the-command-line">Codeacademy</a>
-				<pre><code class="hljs" style="word-wrap" data-trim contenteditable>
-				> echo 'hello world'
+        <pre><code class="hljs" style="word-wrap" data-trim contenteditable>
+        > echo 'hello world'
         </code></pre>
-				</section>
-				
-				<section>
-				<h3>Python</h3>
-				Data cleaning/analysis, building applications.
-				<br>
+        </section>
+        
+        <section>
+        <h3>Python</h3>
+        Data cleaning/analysis, building applications.
+        <br>
         Where to learn it? 
         <a href="https://www.codecademy.com/learn/python">Codeacademy</a>, 
         <a href="https://www.datacamp.com/courses/intro-to-python-for-data-science">DataCamp</a>.
-				<pre><code class="hljs" style="word-wrap" data-trim contenteditable>
-				> print(hello world)
-				</code></pre>
-				</section>
-				
-				<section>
-				<h3>R</h3>
-				Data analysis/modeling.
-				<br>
+        <pre><code class="hljs" style="word-wrap" data-trim contenteditable>
+        > print(hello world)
+        </code></pre>
+        </section>
+        
+        <section>
+        <h3>R</h3>
+        Data analysis/modeling.
+        <br>
         Where to learn it? 
         <a href="https://www.codeschool.com/courses/try-r">CodeSchool</a>
-				<pre><code class="hljs" style="word-wrap" data-trim contenteditable>
-				> print("hello world")
-				</code></pre>
-				</section>
-				
-				<section>
-				<h3>Julia</h3>
-				Computation and parallel computing.
-				<br>
+        <pre><code class="hljs" style="word-wrap" data-trim contenteditable>
+        > print("hello world")
+        </code></pre>
+        </section>
+        
+        <section>
+        <h3>Julia</h3>
+        Computation and parallel computing.
+        <br>
         Where to learn it? 
         <a href="https://julialang.org/learning/">Julia documentation</a>.
-				<pre><code class="hljs" style="word-wrap" data-trim contenteditable>
-				> println("hello world")
-				</code></pre>
-				</section>
-				
-				<section>
-				<h3>SQL</h3>
-				Working with and querying databases.
-				<br>
+        <pre><code class="hljs" style="word-wrap" data-trim contenteditable>
+        > println("hello world")
+        </code></pre>
+        </section>
+        
+        <section>
+        <h3>SQL</h3>
+        Working with and querying databases.
+        <br>
         Where to learn it? 
         <a href="https://www.w3schools.com/sql/DEfaULT.asP">w3schools</a>
-				<pre><code class="hljs" style="word-wrap" data-trim contenteditable>
-				> SELECT 'HELLO WORLD';
-				</code></pre>
-				</section>
-				
-				<section>
-				<h3>HTML/Javscript</h3>
-				Web development and data visualization.
-				<br>
+        <pre><code class="hljs" style="word-wrap" data-trim contenteditable>
+        > SELECT 'HELLO WORLD';
+        </code></pre>
+        </section>
+        
+        <section>
+        <h3>HTML/Javscript</h3>
+        Web development and data visualization.
+        <br>
         Where to learn it? <a href="https://www.codecademy.com/learn/learn-html-css">Codeacademy</a>
-				<pre><code class="hljs" style="word-wrap" data-trim contenteditable>
+        <pre><code class="hljs" style="word-wrap" data-trim contenteditable>
                 &lt;script&gt;
                    console.log("hello world") 
                 &lt;/script&gt;
-				</code></pre>
+        </code></pre>
         </section>
 
         <section>
@@ -196,26 +196,26 @@
         Play with the syntax at <a href="http://regexr.com/">this website</a>.
         </section>
 
-				<section>
-					<h3>Resources to get started</h3>
-					<ul>
+        <section>
+          <h3>Resources to get started</h3>
+          <ul>
             <li><a href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x">CS50x</a></li>
             <li><a href="https://codeacademy.org">CodeAcademy</a></li>
             <li><a href="https://www.codeschool.com">CodeSchool</a></li>
             <li><a href="https://www.w3schools.com">w3schools</a></li>
-					</ul>
-				</section>
+          </ul>
+        </section>
 
-				<section>
-					<h3>How do I get started?</h3>
-					<ul>
+        <section>
+          <h3>How do I get started?</h3>
+          <ul>
               <li>Pick a project</li>
               <li>Apply it to something at work</li>
               <li>Attend a hackathon 
                 (<a href="http://houstonhackathon.com/">Houston</a>,
                 <a href="https://2017.spaceappschallenge.org/locations/houston/">Space Apps</a>)</li>
-					</ul>
-				</section>
+          </ul>
+        </section>
         
         <section>
         <h3>How to get unstuck?</h3>
@@ -226,47 +226,96 @@
             <li>Google</li>
             <li>Online communities (twitter, slack)</li>
         </ul>
-				</section>
-
-        <section>
-        <h3>Given a problem, how would I get unstuck?</h3>
-        <h4>How do I </h4>
         </section>
 
-				<section>
-				<h3>Local communities to help</h3>
+        <section>
+        <h3>What does this look like practically?</h3>
+        <p>What if I was...trying to learn SQL from scratch?</p>
+          
+<!--           <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 459px; left: 23px; top: 234px;" data-block-id="d7ad7817324c167c872ea17874ef5eec"> -->
+              <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 18; background-color: rgb(39, 78, 19); color: rgb(255, 255, 255); left: 23px; top: 234px;" data-fragment-index="0" >
+                  <p>1. w3schools tutorials</p>
+              </div>
+          <!-- </div>           -->
+
+<!--           <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 459px; left: 21px; top: 316px;" data-block-id="f5cc4bac910c9a814770f9aadaaf2603">
+              <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; background-color: rgb(28, 69, 135); color: rgb(255, 255, 255);" data-fragment-index="2">
+                  <p>2. try to build a database out of spreadsheets</p>
+              </div>
+          </div>
+
+        <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 459px; left: 21px; top: 448px;" data-block-id="5c7d51c9312229b585992adba934d81f">
+            <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; background-color: rgb(255, 0, 0); color: rgb(255, 255, 255);" data-fragment-index="4">
+                <p>3. realize that I don't know how to import a csv into MySQL db</p>
+            </div>
+        </div>
+
+        <div class="sl-block" data-block-type="text" data-block-id="b9d813529209f49b6052b8eb44121ed3" style="height: auto; min-width: 30px; min-height: 30px; width: 308px; left: 21px; top: 219px;">
+            <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; background-color: rgb(39, 78, 19); color: rgb(255, 255, 255);" data-fragment-index="6">
+                <p>4. stackoverflow</p>
+            </div>
+        </div>
+
+        <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 459px; left: 21px; top: 316px;" data-block-id="f5cc4bac910c9a814770f9aadaaf2603">
+            <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; background-color: rgb(28, 69, 135); color: rgb(255, 255, 255);" data-fragment-index="8">
+                <p>5. try to build a database out of spreadsheets</p>
+            </div>
+        </div>
+        
+        <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 459px; left: 21px; top: 448px;" data-block-id="5c7d51c9312229b585992adba934d81f">
+            <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; background-color: rgb(255, 0, 0); color: rgb(255, 255, 255);" data-fragment-index="10">
+                <p>6. realize my unique ID isn't unique</p>
+            </div>
+        </div>
+        
+        <div class="sl-block" data-block-type="text" data-block-id="b9d813529209f49b6052b8eb44121ed3" style="height: auto; min-width: 30px; min-height: 30px; width: 308px; left: 600px; top: 219px;">
+            <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; background-color: rgb(39, 78, 19); color: rgb(255, 255, 255);" data-fragment-index="12">
+                <p>7. stackoverflow</p>
+            </div>
+        </div>
+        
+        <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 459px; left: 21px; top: 316px;" data-block-id="f5cc4bac910c9a814770f9aadaaf2603">
+            <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; background-color: rgb(28, 69, 135); color: rgb(255, 255, 255);" data-fragment-index="16">
+                <p>7. try to build a database out of spreadsheets</p>
+            </div>
+        </div> -->
+        </section>
+
+        <section>
+        <h3>Local communities to help</h3>
         <ul>
             <li>NASA Slack</li>
-				    <li>Houston Data Visualization</li>
-				</ul>
-				</section>
-				
-				<section>
-				<h3>Questions?</h3>
-				</section>
+            <li>Houston Data Visualization</li>
+        </ul>
+        </section>
+        
+        <section>
+        <h3>Questions?</h3>
+        </section>
 
-				</section>
-				
-			</div>
-		</div>
+        </section>
+        
+      </div>
+    </div>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
 
-		<script>
-			// More info https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				history: true,
-				center: true,
+    <script>
+      // More info https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        history: true,
+        center: true,
 
-				// More info https://github.com/hakimel/reveal.js#dependencies
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+          { src: 'plugin/markdown/marked.js' },
+          { src: 'plugin/markdown/markdown.js' },
+          { src: 'plugin/notes/notes.js', async: true },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+        ]
+      });
+    </script>
+  </body>
 </html>
+0
